@@ -1,0 +1,270 @@
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+img {
+    width: 100%;
+}
+.btn {
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+.btn-primary {
+    background-color: rgb(51, 122, 216);
+    color: white;
+}
+.btn-primary:hover {
+    background-color: rgb(22, 87, 172);
+    color: white;
+}
+.product {
+    margin: 20px 300px;
+    display: flex;
+    border-bottom: 1px solid #dedede;
+}
+.product .product-item {
+    flex:1;
+    margin-bottom: 20px;
+}
+.product .product-item .img {
+    display: flex;
+}
+.product .product-item .img .img-item {
+    flex:1;
+}
+.product .product-item .img .img-item img {
+    width: 60%;
+    align-items: center;
+}
+
+.product .product-item .img .img-items {
+    flex:4;
+    padding: 50px 15px;
+}
+.product .product-item .img .img-items img {
+    width: 70%;
+}
+.product .product-item .title {
+    font-size:35px;
+}
+.product .product-item .title p {        
+    margin-bottom: 10px;
+}
+.product .product-item .price {
+    display: flex;
+    flex-direction: row;
+}
+.product .product-item .price .price-sale {
+    font-size:35px;
+    float: left;
+    margin-right:20px;
+    color: red;
+    font-weight:bold;
+    margin-top:10px;
+    margin-bottom:20px;
+}
+.product .product-item .price .price {
+    font-size:20px;
+    color:gray;
+    text-decoration: line-through;
+    margin-top:25px;
+    margin-bottom:0;
+}
+.product .product-item .camket p{
+    font-size:24px;
+    font-weight:bold;
+    color:#66666a;
+    margin:10px 0;
+}
+.product .product-item .camket ul {
+    padding:0;
+}
+.product .product-item .camket ul li {
+    font-size:20px;
+    color:#667db7;
+}
+.product .product-item .camket ul li i {
+    color:#ababab;
+}
+.product .product-item .qty {
+    width: 20%;
+    height: 30px;
+    padding:5px;
+    font-size:20px;
+    text-align:center;
+    margin-bottom:20px;
+    border: 1px solid #000;
+}
+.product .product-item .btn {
+    padding: 0;
+}
+.product .product-item .btn button {
+    width: 40%;
+    height: 60px;
+    font-size:24px;
+    border:1px solid #f56b29;
+    background-color:white;
+    color:#f56b29;  
+    cursor: pointer;
+}
+.product .product-item .btn button:hover {
+    color:#fff; 
+    background-color:#f56b29;
+}
+h1 {
+    width: 100%;
+    text-align: center;
+    font-size:40px;
+    margin-bottom:10px;
+}
+.thongtin {
+    margin: 20px 300px;
+    display: flex;
+    border-bottom: 1px solid #dedede;
+    display: flex;
+    flex-direction:column;
+    padding-bottom:40px;
+}
+.thongtin p{
+    width: 100%;
+    font-size:24px;
+    line-height:30px;
+}
+.thongtin img{
+    width: 40%;
+}
+
+
+/* sản phẩm */
+.sanpham  #products {
+    margin: auto;
+    margin-top: 15px ;
+    margin-bottom: 30px;
+    padding: 0 15px;
+}
+.sanpham  #products .items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+.sanpham  #products .items .item {
+    border: 1px solid rgb(236, 232, 232);
+    box-shadow: 1px 2px 4px rgb(209, 209, 209);
+    border-radius: 8px;
+    padding: 20px 10px;
+}
+.sanpham  #products .items .item .item-thumb img{
+    border-radius: 8px;
+    height: 250px;
+}
+.sanpham  #products .items .item #title {
+    text-align:center;
+    width: 100%;
+    
+}
+.sanpham  #products .items .item #title .title {
+    font-size: 19px; 
+    height: 60px;
+    line-height: 30px;
+    margin: 20px 0;
+    padding: 0px 20px;
+    text-transform: uppercase;
+    color: black;
+}
+.sanpham  #products .items .item #title .title:hover{
+    color: red;
+}
+/* .sanpham  #products .items .item .title:first-letter {
+    text-transform: capitalize;
+} */
+.sanpham  #products .items .item .title a {
+    color: rgb(0, 0, 0);
+}
+.sanpham  #products .items .item .title a:hover {
+    color: rgba(44, 19, 158, 0.973);
+}
+.sanpham  #products .items .item .item-price {
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+.sanpham  #products .items .item .item-price .item-price-origin {
+    font-size: 20px;
+    text-decoration: line-through;
+}
+.sanpham  #products .items .item .item-price .item-price-sale {
+    font-size: 24px;
+    color: red;
+    margin-bottom: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+    text-align: center;
+} 
+.sanpham  #products .items .item .item-price #item-price-sale {
+    padding-left: 30%;
+}
+.sanpham  #products .items .item  .btn-lx{
+    display: flex;
+}
+.sanpham  #products .items .item  .btn-lx .luocxem {
+    flex: 1;
+    font-size:20px;
+    margin-left:15px;
+}
+.sanpham  #products .items .item  .btn-lx .luocxem i {
+    color:#ababab;
+}
+.sanpham  #products .items .item .btn-lx .btn {
+    flex: 2;
+    padding:0;
+    height:55px;
+    font-size: 20px;
+}
+.comment {
+    margin: 20px 300px;
+    display: flex;
+    border-top: 1px solid #dedede;
+    flex-direction: column;
+}
+.comment p {
+    font-size:22px;
+}
+.comment input {
+    width: 99%;
+    height: 40px;
+    font-size:25px;
+    padding:5px;
+    margin-bottom: 10px;
+    border: 1px solid #000;
+}
+.comment button {
+    width: 100px;
+    height: 40px;
+    font-size:25px;
+    margin-left:92.8%;
+    padding:5px;
+    background-color:#4267b2;
+    color:white;
+    font-weight:bold;
+    cursor: pointer;
+}
+.comment .view {
+    display:flex;
+    flex-direction:row;
+    margin:10px 0;
+}
+.comment .view img {
+    width: 60px;height: 60px;
+}
+.comment .view .noidung p {
+    margin:0 20px;
+}
+.comment .view .noidung .date {
+    font-size:19px;
+    color:gray;
+}
+.comment .view .noidung .data {
+    font-size:30px;
+}

@@ -1,0 +1,52 @@
+#button {
+    border:0;
+    margin:0;
+    padding:0;
+}
+input {
+    border:0;
+    outline:none;
+}
+.search {
+    max-width: 900px;
+    margin:auto;
+}
+.out {
+    
+    margin-top:50px;
+    font-size:25px;
+    text-align:right;  
+}
+.out i {
+    color:black;
+}
+.main input {
+    width: 90%;
+    height: 60px;
+    font-size:40px;
+    text-align:center;
+}
+.main #button {
+    font-size:25px;
+    color:gray;
+}
+.main #form {
+    display: flex;
+    border-bottom:1px solid black;
+    padding:0 30px;
+}
+.main #form #button {
+    width: 10%;
+    background-color:white;
+}
+.main .suggestions {
+    font-size:25px;
+    margin-top:20px;
+}
+.main .suggestions .title {
+    text-decoration: underline;
+    color:black;
+}
+.main .suggestions p {
+    text-transform: uppercase;
+}

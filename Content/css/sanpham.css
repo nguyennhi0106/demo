@@ -1,0 +1,104 @@
+a {
+    text-decoration: none;
+}
+img {
+    width: 100%;
+}
+.btn {
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+.btn-primary {
+    background-color: rgb(51, 122, 216);
+    color: white;
+}
+.btn-primary:hover {
+    background-color: rgb(22, 87, 172);
+    color: white;
+}
+
+/*san pham*/
+/*danh sach san pham*/
+.sanpham  #products {
+    margin: auto;
+    margin-top: 15px ;
+    margin-bottom: 30px;
+    padding: 0 15px;
+}
+.sanpham  #products .items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+.sanpham  #products .items .item {
+    border: 1px solid rgb(236, 232, 232);
+    box-shadow: 1px 2px 4px rgb(209, 209, 209);
+    border-radius: 8px;
+    padding: 20px 10px;
+}
+.sanpham  #products .items .item .item-thumb img{
+    border-radius: 8px;
+    height: 250px;
+}
+.sanpham  #products .items .item #title {
+    text-align:center; 
+    width: 100%;
+}
+.sanpham  #products .items .item #title .title {
+    font-size: 19px; 
+    height: 60px;
+    line-height: 30px;
+    margin: 20px 0;
+    padding: 0px 20px;
+    text-transform: uppercase;
+    color: black;
+}
+.sanpham  #products .items .item #title .title:hover{
+    color: red;
+}
+/* .sanpham  #products .items .item .title:first-letter {
+    text-transform: capitalize;
+} */
+.sanpham  #products .items .item .title a {
+    color: rgb(0, 0, 0);
+}
+.sanpham  #products .items .item .title a:hover {
+    color: rgba(44, 19, 158, 0.973);
+}
+.sanpham  #products .items .item .item-price {
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+.sanpham  #products .items .item .item-price .item-price-origin {
+    font-size: 20px;
+    text-decoration: line-through;
+}
+.sanpham  #products .items .item .item-price .item-price-sale {
+    font-size: 24px;
+    color: red;
+    margin-bottom: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+} 
+.sanpham  #products .items .item .item-price #item-price-sale {
+    padding-left: 30%;
+}
+.sanpham  #products .items .item  .btn-lx{
+    display: flex;
+}
+.sanpham  #products .items .item  .btn-lx .luocxem {
+    flex: 1;
+    font-size:20px;
+    margin-left:15px;
+}
+.sanpham  #products .items .item  .btn-lx .luocxem i {
+    color:#ababab;
+}
+.sanpham  #products .items .item .btn-lx .btn {
+    flex: 2;
+    padding:0;
+    height:55px;
+    font-size: 20px;
+    cursor: pointer;
+}

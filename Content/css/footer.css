@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+footer {
+    border-top: 1px solid black;
+    margin: 0 120px;
+}
+.menu-foo {
+    display: flex;
+    padding: 0;
+    margin-top: 30px;
+}
+.menu-foo .title {
+    flex: 4;
+    text-align: left;
+}
+h3 {
+    text-transform: uppercase;
+    margin-top: 0;
+    font-size: 25px;
+}
+.menu-foo .title #title-menu {
+    padding: 0;
+}
+.menu-foo .title #title-menu .item-con {
+    padding: 3px 0;
+    color: black;
+    font-size: 20px;
+}
+.menu-foo .title #title-menu .item-con a {
+    color: black;
+}
+.menu-foo .title #title-menu .item-con #icon {
+    padding: 0 5px;
+}
+.menu-foo #title-form label,
+input,
+textarea {
+    width: 100%;
+    display: block;
+}
+.menu-foo #title-form label {
+    margin-top: 10px;
+    font-size: 19px;
+}
+.menu-foo #title-form input,
+textarea {
+    margin-top: 5px;
+    padding: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.menu-foo #title-form button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f7442e;
+    color: #fff;
+    font-size: 20px;
+}
+.menu-foo #title-form button:hover {
+    background-color: #c53624;
+}
+.bottom {
+    border-top: 1px solid black;
+}
+.bottom .footer-bottom {
+    padding: 0;
+}
+.bottom .footer-bottom .item-con {
+    float: left;
+    padding: 0 3px;
+    font-size: 22px;
+}

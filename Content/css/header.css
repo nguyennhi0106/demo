@@ -1,0 +1,133 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+.line {
+    height: 10px;
+    background-color: rgb(255, 255, 255);
+}
+header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 1px solid #e6e6e6;
+    transition: all 0.5s ease-in-out;
+}
+.sticky {
+    background-color: white;
+    padding: 0px;
+    top: 0;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+header #main-header {
+    margin: 0 120px;
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+}
+header #main-header .left,
+.right,
+.logo {
+    flex: 4;
+}
+header #main-header .logo {
+    margin: 10px 0;
+    text-align: center;
+}
+header #main-header .logo .logo-item {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+    margin: 0px;
+}
+header #main-header .right {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding: 0;
+}
+header #main-header .right .item {
+    align-items: end;
+    font-size: 20px;
+}
+header #main-header .right .item:nth-last-child(6) {
+    margin-left: auto;
+}
+header #main-header .right .item a {
+    padding: 0 15px;
+    color: gray;
+}
+header #main-header .right .item #cart {
+    padding-right: 5px;
+}
+header #main-header .right .soluong {
+    border: 1px solid #ddd;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 10px;
+    background-color: rgb(223, 223, 223);
+    margin-bottom: 15px;
+}
+header #main-header .right .item:hover a {
+    color: black;
+}
+header #main-header .right #login {
+    border-right: 1px solid gray;
+}
+header #main-header .right .item:hover .menu {
+    display: block;
+}
+header #main-header .right .item:hover .menu {
+    display: block;
+}
+header #main-header .right .item .menu {
+    border: 1px solid gray;
+    box-shadow: 1px 2px 4px gray;
+    position: absolute;
+    top: 60px;
+    z-index: 1000;
+    background-color: white;
+    padding: 10px 0;
+    display: none;
+}
+header #main-header .right .item .menu .item {
+    font-size: 20px;
+    color: black;
+}
+header #main-header .right .item .menu #item2 {
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+}
+header #header-bottom {
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 150px;
+    margin-top: 15px;
+}
+header #header-bottom .bottom-item {
+    font-size: 18px;
+    margin: 0;
+    color: black;
+    text-transform: uppercase;
+}
+.end {
+    background-color: white;
+    height: 30px;
+    margin-top: 146.25px;
+}
